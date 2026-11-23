@@ -1,0 +1,45 @@
+{
+  "connectionMode": "auto",
+  "comPort": "COM3",
+  "wifiIp": "192.168.1.100",
+  "baudRate": 115200,
+  "soundEnabled": true,
+  "notificationsEnabled": false,
+  "minimizeToTray": true,
+  "autoOpenUrls": false,
+  "masterAutomationsEnabled": true,
+  "wolEnabled": false,
+  "wolMac": "00:11:22:33:44:55",
+  "rules": [
+    {
+      "id": "rule_example_1",
+      "name": "Play Music",
+      "tagUid": "AA:BB:CC:DD",
+      "tagPayload": "",
+      "matchMode": "uid",
+      "type": "spotify",
+      "target": "resume",
+      "args": "",
+      "silent": true,
+      "enabled": true,
+      "triggerCount": 0,
+      "lastTriggerTime": "",
+      "sound": "28_harp_pluck.wav"
+    },
+    {
+      "id": "rule_example_2",
+      "name": "Open Website",
+      "tagUid": "11:22:33:44",
+      "tagPayload": "https://example.com",
+      "matchMode": "payload",
+      "type": "url",
+      "target": "https://example.com",
+      "args": "",
+      "silent": false,
+      "enabled": true,
+      "triggerCount": 0,
+      "lastTriggerTime": "",
+      "sound": "13_airdrop_ping.wav"
+    }
+  ]
+}
