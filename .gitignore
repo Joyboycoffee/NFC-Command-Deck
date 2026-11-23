@@ -1,0 +1,39 @@
+# Build output and caches
+.pio/
+build*/
+retro_go_build*/
+__pycache__/
+*.pyc
+.vscode/
+*.log
+debug_log.txt
+err.txt
+out.txt
+test.exe
+test.o
+test.s
+*.o
+*.res
+*.flag
+*.bak
+
+# Binaries and archives
+*.bin
+*.img
+*.exe
+*.zip
+
+# Audio and media
+*.mp3
+*.flac
+*.wav.bak
+scratch_*
+roms_backup_original/
+copy to SD card/roms
+badusb_payloads/
+digispark_scripts/
+ESP Ble/
+
+# Local configuration and credentials
+secrets.h
+app/nfc_actions.json
